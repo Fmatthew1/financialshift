@@ -1,12 +1,6 @@
-
-
 * {
     margin:0;
     padding:0;
-}
-
-body {
-
 }
 
 .Container {
@@ -14,18 +8,15 @@ body {
     
 }
 
-
-}
-
 .section1 h1 {
     justify-content: center;
     text-align: center;
     font-size: 3em;
     border-bottom: 5px solid purple;
-    /*color: purple;*/
+    color: purple;
     margin-top: 20px;
-    font-family: Roboto;
-
+    font-family: Montserrat, roboto, sans-serif;
+}
 
 .section2 {
     display:flex;
@@ -36,7 +27,7 @@ body {
 p {
     margin-top: 1em ;
     margin-bottom: 1em ;
-    font-family: Roboto, Helvetica, sans-serif;
+    font-family: Montserrat, Helvetica, sans-serif;
   }
 
 .section3, p{
@@ -48,7 +39,7 @@ h3 {
     text-align: center;
     margin-top: 20px;
     font-size: 20px;
-    font-family: Roboto;
+    font-family: Montserrat, Roboto, sans-serif;
 }
 
 .section4 {
@@ -62,7 +53,7 @@ h3 {
     text-align: center;
     margin: 0 auto;
     font-size: 16px;
-    font-family: Roboto;
+    font-family: Montserrat, Roboto, sans-serif;
 }
 
 .btn_whatsApp, button{
@@ -91,7 +82,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    font-family: Roboto;
+    font-family: Montserrat, Roboto, sans-serif;
 }
 
 .section6, img {
