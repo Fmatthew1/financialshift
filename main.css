@@ -1,0 +1,113 @@
+* {
+    margin:0;
+    padding:0;
+
+}
+
+.Container {
+    width: 100%;
+}
+
+.section1 h1 {
+    justify-content: center;
+    text-align: center;
+    font-size: 3em;
+    border-bottom: 5px solid purple;
+    color: purple;
+    margin-top: 20px;
+   
+}
+  
+.section2 {
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.section3, p{
+    text-align: center;
+    font-size: 20px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.section4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.section5 {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.btn_whatsApp, button{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+.btn_whatsApp, button {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+    background: green;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+
+}
+
+.section6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section6, img {
+    margin-bottom: 20px;
+    width: auto;
+    transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
+
+}
+
+footer {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    width: 20px 20px;
+}
+
+@media (max-width:390px) {
+    .section5 {
+        font-size: 16px;
+    }
+    .btn_whatsApp, button {
+        font-size: 16px;
+    }
+    img {
+        width: 200px;
+    }
+    .section5 {
+        margin: 0 auto;
+    }
+}
+    
