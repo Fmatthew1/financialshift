@@ -63,6 +63,8 @@ h3 {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    border-radius: 15px;
+    text-decoration: none;
 
 }
 .btn_whatsApp, button {
@@ -101,9 +103,13 @@ footer {
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    padding-top: 50px;
+    color: #FFFFFF;
     margin-top: 20px;
     width: 20px 20px;
     padding-bottom: 25px;
+    background-color: #c4baba;
+    height: 50px;
 }
 
 @media (max-width:390px) {
@@ -118,6 +124,7 @@ footer {
     }
     .section5 {
         margin: 0 auto;
+        
     }
 }
     
